@@ -6,10 +6,20 @@ Once you're done, send us an email with your work to `careers@xedi.com`. This ca
 
 If you have any issues with this test or its instructions, please [open an issue](https://github.com/xedi/tech-test/issues/new) or contact `careers@xedi.com`.
 
+### Notices
+
 - **This test should take you no longer than 2 hours.**
 - **Code style is important. For PHP, try to follow PSR-1 & PSR-2.**
-- **3rd party packages should not be used except for testing and/or compilation.** 
+- **3rd party packages/code should not be used for the logic of this test.  
+    They are however allowed for testing, style checking, type checking and compilation.**
 - **You are welcome (and encouraged) to use new language features.**
+
+### Considerations
+
+- Don't overthink, but don't over-simplify, the task.
+- Consider writing tests. Automated or not, they will help justify your working.
+- Be prepared to discuss and justify decisions you have made during this test.
+- While not required. Consider encapsulation through getters/setters.
 
 ### The Test
 
@@ -41,12 +51,5 @@ They should have a public `toggle()` method which will switch the `completed` pr
 
 	[/] A completed task
 	[ ] An incomplete task
-			
-### Considerations
-
-- Don't overthink, but don't over-simplify, the task.
-- Consider writing tests. Automated or not, they will help justify your working.
-- Be prepared to discuss and justify decisions you have made during this test.
-- While not required. Consider encapsulation through getters/setters.
 
 :coffee:
