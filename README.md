@@ -7,7 +7,7 @@ Once you're done, send us an email with your work to `careers@xedi.com`. This ca
 If you have any issues with this test or its instructions, please [open an issue](https://github.com/xedi/tech-test/issues/new) or contact `careers@xedi.com`.
 
 - **This test should take you no longer than 2 hours.**
-- **Code style is important. For PHP, follow PSR-1 & PSR-2.**
+- **Code style is important. For PHP, try to follow PSR-1 & PSR-2.**
 - **3rd party packages should not be used except for testing and/or compilation.** 
 - **You are welcome (and encouraged) to use new language features.**
 
