@@ -22,7 +22,7 @@ To complete this test you will be required to build a simple system for adding `
 - **title** _(string)_
 - **completed** _(bool)_
 
-It should also have a public `toggle()` method which will switch the `completed` property between `true` and `false`.
+They should have a public `toggle()` method which will switch the `completed` property between `true` and `false`.
 
 ##### TodoList
 
@@ -47,5 +47,6 @@ It should also have a public `toggle()` method which will switch the `completed`
 - Don't overthink, but don't over-simplify, the task.
 - Consider writing tests. Automated or not, they will help justify your working.
 - Be prepared to discuss and justify decisions you have made during this test.
+- While not required. Consider encapsulation through getters/setters.
 
 :coffee:
