@@ -13,11 +13,11 @@ If you have any issues with this test or its instructions, please [open an issue
 
 ### The Test
 
-To complete this test you will be required to build a simple system for adding `Todo` objects to a `TodoList` object. There should then be a `TodoListPrinter` to output the `TodoList`. There will also need to be an example file to show the usage of your work.
+To complete this test you will be required to build a simple system for adding `Todo` objects to `TodoList` objects. `TodoListPrinter`s will be used to output the `TodoList`s. You should provide an example file showing the usage of this system.
 
 ##### Todo
 
-The `Todo` should have the following properties:
+`Todo`s should have the following properties:
 
 - **title** _(string)_
 - **completed** _(bool)_
@@ -26,7 +26,7 @@ It should also have a public `toggle()` method which will switch the `completed`
 
 ##### TodoList
 
-The `TodoList` should contain an `array` of todos and have the following public methods available:
+`TodoList`s should contain an `array` of todos and have the following public methods available:
 
 - **add(_todo_)** -> Add a todo
 - **remove(_index_)** -> Remove the todo at the given index
@@ -37,7 +37,7 @@ The `TodoList` should contain an `array` of todos and have the following public 
 
 ##### TodoListPrinter
 
-The `TodoListPrinter` should have a single public method; `print(todoList)`. This method should output the given `todoList`. With PHP you should use `echo`, in JS use `console.log`. The format should be as follows.
+`TodoListPrinter`s should have a single public method; `print(todoList)`. This method should output the given `todoList`. With PHP you should use `echo`, in JS use `console.log`. The format should be as follows.
 
 	[/] A completed task
 	[ ] An incomplete task
