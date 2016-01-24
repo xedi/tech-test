@@ -8,7 +8,7 @@ If you have any issues with this test or its instructions, please [open an issue
 
 - **This test should take you no longer than 2 hours.**
 - **Code style is important. For PHP, follow PSR-1 & PSR-2.**
-- **No 3rd party packages/code is allowed.** 
+- **3rd party packages should not be used except for testing and/or compilation.** 
 - **You are welcome (and encouraged) to use new language features.**
 
 ### The Test
