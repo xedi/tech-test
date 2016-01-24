@@ -28,7 +28,7 @@ They should have a public `toggle()` method which will switch the `completed` pr
 
 `TodoList`s should contain an `array` of todos and have the following public methods available:
 
-- **add(_todo_)** -> Add a todo
+- **add(_todo_)** -> Add a todo object
 - **remove(_index_)** -> Remove the todo at the given index
 - **get(_index_)** -> Return the todo at the given index
 - **all()** -> Return all todos
