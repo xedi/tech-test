@@ -47,7 +47,7 @@ They should have a public `toggle()` method which will switch the `completed` pr
 
 ##### TodoListPrinter
 
-`TodoListPrinter`s should have a single public method; `print(todoList)`. This method should output the given `todoList`. With PHP you should use `echo`, in JS use `console.log`. The format should be as follows.
+`TodoListPrinter`s should have a single public method; `printTodoList(todoList)`. This method should output the given `todoList`. With PHP you should use `echo`, in JS use `console.log`. The format should be as follows.
 
 	[/] A completed task
 	[ ] An incomplete task
