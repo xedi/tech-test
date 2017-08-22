@@ -1,6 +1,6 @@
 #XEDI Tech Test
 
-This test is designed to provide us with an understanding of your level as a programmer. We'd like you to complete this test in either **PHP** or **JS** as these are the primary languages we use at XEDI.
+This test is designed to provide us with an understanding of your level as a programmer. We'd like you to complete this test in either **PHP** or **JS** as these are the primary languages we use at [XEDI](https://xedi.com).
 
 Once you're done, send us an email with your work to `careers@xedi.com`. This can be either as a fork of this repo, hosted on your own server or in a `.zip` file.
 
