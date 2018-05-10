@@ -1,55 +1,7 @@
-# XEDI Tech Test
+# XEDI Tech Tests
 
-This test is designed to provide us with an understanding of your level as a programmer. We'd like you to complete this test in either **PHP** or **JS** as these are the primary languages we use at [XEDI](https://xedi.com).
+These tests are designed to help us assess where you are in regards to our measure of what constitutes the various levels in each role.
 
-Once you're done, send us an email with your work to `careers@xedi.com`. This can be either as a fork of this repo, hosted on your own server or in a `.zip` file.
+Each test is within a folder related to role and level, so the test for a senior developer can be found in `developer/senior`, and likewise `devops/junior` for a junior devops engineer.
 
-If you have any issues with this test or its instructions, please [open an issue](https://github.com/xedi/tech-test/issues/new) or contact `careers@xedi.com`.
-
-### Notices
-
-- **This test should take you no longer than 2 hours.**
-- **Code style is important. For PHP, try to follow PSR-1 & PSR-2.**
-- **3rd party packages/code should not be used for the logic of this test.
-    They are however allowed for testing, style checking, type checking and compilation.**
-- **You are welcome (and encouraged) to use new language features.**
-
-### Considerations
-
-- Don't overthink, but don't over-simplify, the task.
-- Consider writing tests. Automated or not, they will help justify your working.
-- Be prepared to discuss and justify decisions you have made during this test.
-- While not required. Consider encapsulation through getters/setters.
-
-### The Test
-
-To complete this test you will be required to build a simple system for adding `Todo` objects to `TodoList` objects. `TodoListPrinter`s will be used to output the `TodoList`s. You should provide an example file showing the usage of this system.
-
-##### Todo
-
-`Todo`s should have the following properties:
-
-- **title** _(string)_
-- **completed** _(bool)_
-
-They should have a public `toggle()` method which will switch the `completed` property between `true` and `false`.
-
-##### TodoList
-
-`TodoList`s should contain an `array` of todos and have the following public methods available:
-
-- **add(_todo_)** -> Add a todo object
-- **remove(_index_)** -> Remove the todo at the given index
-- **get(_index_)** -> Return the todo at the given index
-- **all()** -> Return all todos
-- **completed()** -> Return the completed todos
-- **active()** -> Return the incomplete todos
-
-##### TodoListPrinter
-
-`TodoListPrinter`s should have a single public method; `printTodoList(todoList)`. This method should output the given `todoList`. With PHP you should use `echo`, in JS use `console.log`. The format should be as follows.
-
-	[/] A completed task
-	[ ] An incomplete task
-
-:coffee:
+If you have any questions, please contact [`careers@xedi.com`](mailto:careers@xedi.com) or raise an [issue](https://github.com/xedi/tech-test/issues/new).
